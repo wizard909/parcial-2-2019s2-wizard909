@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2.ejercicio3;
+package ar.edu.unahur.obj2.ejercicio6;
 
 public class Vendedor {
 

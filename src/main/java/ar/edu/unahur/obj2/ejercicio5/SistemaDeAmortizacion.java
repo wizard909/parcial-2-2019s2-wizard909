@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2.ejercicio1y2;
+package ar.edu.unahur.obj2.ejercicio5;
 
 public abstract class SistemaDeAmortizacion {
 
