@@ -1,0 +1,46 @@
+@startuml
+
+  class LinkTag {
+      - label : String
+      + LinkTag()
+      + getLabel()
+  }
+
+  abstract class Node {
+  }
+
+
+  class Parser {
+      - nodes : List<Node>
+      + Parser()
+      + nodes()
+  }
+
+  class StringNode {
+      - text : String
+      + StringNode()
+      + getText()
+  }
+
+
+  class Tag {
+      - value : String
+      + Tag()
+      + getValue()
+  }
+
+
+  class TextExtractor {
+      + extractText()
+      - extractStringNode()
+      - extractTag()
+      - extractLinkTag()
+  }
+
+
+  LinkTag -up-|> Node
+  StringNode -up-|> Node
+  Tag -up-|> Node
+
+
+@enduml
