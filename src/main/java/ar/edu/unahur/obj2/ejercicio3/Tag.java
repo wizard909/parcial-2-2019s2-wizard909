@@ -1,14 +1,14 @@
 package ar.edu.unahur.obj2.ejercicio3;
 
-public class Tag  extends Node {
+public class Tag  extends Nodo {
 
-    private String value;
+    private String valor;
 
-    public Tag(String value) {
-        this.value = value;
+    public Tag(String valor) {
+        this.valor = valor;
     }
 
-    public String getValue() {
-        return value;
+    public String valor() {
+        return valor;
     }
 }
